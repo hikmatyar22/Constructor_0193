@@ -52,6 +52,7 @@ int main()
 	gibran.cetak();
 	pirang.cetak();
 
+
 	system("pause");
 
 	return 0;
