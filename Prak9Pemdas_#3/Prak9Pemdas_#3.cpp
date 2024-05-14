@@ -42,6 +42,18 @@ void Mahasiswa::cetak() {
 
 int main()
 {
+	Mahasiswa putra;
+	Mahasiswa duta (223);
+	Mahasiswa gibran ("faiq");
+	Mahasiswa pirang (123, "daffa");
 
+	putra.cetak();
+	duta.cetak();
+	gibran.cetak();
+	pirang.cetak();
+
+	system("pause");
+
+	return 0;
 
 }
