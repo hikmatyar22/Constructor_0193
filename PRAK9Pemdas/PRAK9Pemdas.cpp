@@ -17,9 +17,11 @@ public:
 	}
 };
 
-int Mahasiswa::nim = 100;
+int Mahasiswa::nim = 193;
 
-
+void Mahasiswa::setID() {
+	id = ++nim;
+}
 
 
 int main()
