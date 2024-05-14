@@ -21,6 +21,10 @@ public:
 
 int Mahasiswa::nim = 193;
 
+void Mahasiswa::setID() {
+	id = ++nim;
+}
+
 
 
 
